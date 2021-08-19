@@ -1,0 +1,78 @@
+
+/* ................................header section.......................................... */
+
+header{
+  padding-bottom: 2rem;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 2rem 0;
+}
+
+.navbar-brand{
+  font-family: 'Style Script', cursive;
+}
+/* image section */
+img{
+  height:auto;
+  width:100%;
+}
+
+/* Section */
+
+#Introduction {
+  background-color: #fefefe;
+  padding-bottom: 5rem;
+}
+
+#resume{
+  text-align: center;
+}
+
+hr {
+  border-style:dotted;
+  border-color: #000000;
+  border-width: 5px;
+  border-bottom: 0;
+  width: 10%;
+  margin: 50px auto;
+}
+
+/* Footer Section */
+
+footer {
+  text-align: center;
+}
+footer {
+  text-align: center;
+}
+
+.social-icon {
+    margin: 20px 10px;
+    color: #000000;
+  }
+
+/* media query for 768px and smaller */
+@media only screen and (max-width:768px) {
+
+  h1 h4{
+    text-align: center;
+  }
+
+  .dev-title{
+    align-items: center;
+  }
+
+  dl{
+    padding-left: 2rem;
+  }
+}
+
+@media only screen and (max-width:425px){
+  .internship-link{
+    width:80%;
+    height:80%;
+  }
+}
