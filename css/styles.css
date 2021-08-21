@@ -1,5 +1,8 @@
+body{
+  margin: 0 0;
+}
 
-/* ................................header section.......................................... */
+/* header */
 
 header{
   padding-bottom: 2rem;
@@ -8,35 +11,43 @@ header{
 /* Navigation Bar */
 
 .navbar {
-  padding: 2rem 0;
+  padding:  2rem 2rem;
+  background-color:#fdfaf6;
+  
 }
 
 .navbar-brand{
   font-family: 'Style Script', cursive;
 }
-/* image section */
+
+.navigation-text{
+  border-right-style: solid;
+  border-right-width: 3px;
+}
+
+.nav-link:hover{
+  color:red;
+}
+/* introduction Section */
+
 img{
   height:auto;
   width:100%;
 }
 
-/* Section */
-
-#Introduction {
-  background-color: #fefefe;
-  padding-bottom: 5rem;
+.intro-header{
+  font-size: 6rem;
 }
-
-#resume{
+#Resume{
   text-align: center;
+  padding: 5rem 0;
 }
 
 hr {
-  border-style:dotted;
+  border-bottom-style:dotted;
   border-color: #000000;
-  border-width: 5px;
-  border-bottom: 0;
-  width: 10%;
+  border-bottom-width: thick;
+  width: 7%;
   margin: 50px auto;
 }
 
@@ -44,15 +55,23 @@ hr {
 
 footer {
   text-align: center;
-}
-footer {
-  text-align: center;
+  padding: 5rem 7rem 0 7rem;
+  background-color:#fdfaf6;
 }
 
 .social-icon {
     margin: 20px 10px;
     color: #000000;
   }
+
+.fa-angle-double-up{
+  font-size: 3rem;
+}
+
+.go-up{
+  position: absolute;
+  right: 0;
+}
 
 /* media query for 768px and smaller */
 @media only screen and (max-width:768px) {
@@ -68,11 +87,37 @@ footer {
   dl{
     padding-left: 2rem;
   }
+  .go-up{
+    display: none;
+  }
+
+  footer {
+    text-align: center;
+    padding: 1rem 1rem;
+  }
+    .internship-link{
+      width: -75%;
+      height: -75%;
+    }
+
 }
 
-@media only screen and (max-width:425px){
-  .internship-link{
-    width:80%;
-    height:80%;
+@media only screen and (max-width:320px){
+  .navbar{
+    padding:0;
+  } 
+
+  li{
+    align-items: center;
   }
+
+  img{
+    padding-top:10px;
+  }
+
+  #Resume{
+    text-align: center;
+    padding: 2rem 0;
+  }
+
 }

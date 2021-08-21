@@ -24,37 +24,40 @@
 
 <body>
 
-  <header id="Introduction">
+  <header id="header">
     <!-- navigation bar -->
-    <nav class="navbar navbar-dark">
+    <nav class="navbar sticky-top">
       <div class="container-fluid">
-        <a class="navbar-brand text-danger fw-bold fs-2" href="index.html">Olatunbosun</a>
+        <a class="navbar-brand text-dark fw-bold fs-1" href="index.html">Olatunbosun Iyare <span class="text-dark fw-lighter fs-4">a Frontend developer</span></a>
         <ul class="nav justify-content-end">
           <li class="nav-item">
-            <a class="nav-link active text-danger fw-bold" aria-current="page" href="#Resume">Resume</a>
+            <a class="nav-link navigation-text active text-dark fs-4 fw-lighter" aria-current="page" href="#Resume">Resume</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-danger fw-bold" href="#footer">Contact</a>
+            <a class="nav-link text-dark fs-4 fw-lighter" href="#footer">Contact</a>
           </li>
         </ul>
       </div>
     </nav>
     <!--  -->
-
-    <div class="row justify-content-center container-fluid brief">
-      <div class="col-sm-4">
-        <img src="images/olatunbosun.png" alt="Olatunbosun's image">
-      </div>
-      <div class="col-sm-4 align-self-center dev-title">
-        <h1 class="text-start">I am Olatunbosun</h1>
-        <h4 class="text-start">a Frontend Developer</h4>
-      </div>
-    </div>
+    <section class="introduction">
+     <div class="row justify-content-center container-fluid brief">
+        <div class="col-sm-4">
+          <img src="images/olatunbosun.png" alt="Olatunbosun's image">
+        </div>
+        <div class="col-sm-4 align-self-center dev-title">
+          <h1 class="text-start intro-header ">Hello!</h1>
+          <p class="text-start fw-lighter fs-5">I am a self taught developer. I love Technology, so I took up the challenge.<br> 
+            Let's all make the world a better place as we build and create exciting projects.
+          </p>
+        </div>
+     </div>
+   </section>
   </header>
 
   <section id="Resume">
       <div>
-        <h5 class="fw-bold text-center text-danger pb-4">Skills</h5>
+        <h5 class="fw-bold text-center text-danger fs-3 pb-4">Skills</h5>
       </div>
       <dl class="row justify-content-center ">
         <dt class="col-sm-3">Coding</dt>
@@ -66,7 +69,7 @@
       </dl>
       <hr>
       <div>
-        <h5 class="fw-bold text-center text-danger pb-4">Education</h5>
+        <h5 class="fw-bold text-center text-danger fs-3 pb-4">Education</h5>
         <p class="text-center">Code With Mosh</p>
         <p class="text-center">Udemy</p>
         <p class="text-center">Techstudio Academy</p>
@@ -74,7 +77,7 @@
       </div>
       <hr>
       <div>
-        <h5 class="fw-bold text-center text-danger pb-4">Certificate</h5>
+        <h5 class="fw-bold text-center text-danger fs-3 pb-4">Certificate</h5>
         <dl class="row justify-content-center">
           <dt class="col-sm-3">Techstudio Academy (2021)</dt>
           <dd class="col-sm-3">Certificate of Completion from Techstudio Academy(Python Fullstack Web Development)</dd>
@@ -89,23 +92,14 @@
 
   <div class=" container pt-5">
     <div class="row justify-content-center pb-4">    
-      <div class="col-sm-2">
-        <a href="https://internship.zuri.team/"><img src="images/zurilogo.svg" class="internship-link" width= 20px height =20px alt="hng logo"></a>
+      <div class="col-sm-4">
+        <a href="https://internship.zuri.team/"><img src="images/zurilogo.svg" class="internship-link" width= 2rem height =2rem alt="hng logo"></a>
       </div>
-      <div class="col-sm-2">
-        <a href="https://internship.zuri.team/"><img src="images/zurilogo.svg" class="internship-link" width= 20px height =20px alt="hng logo"></a>
+      <div class="col-sm-4">
+        <a href="https://internship.zuri.team/"><img src="images/zurilogo.svg" class="internship-link" width= 2rem height =2rem alt="hng logo"></a>
       </div>
-      <div class="col-sm-2">
-        <a href="https://internship.zuri.team/"><img src="images/zurilogo.svg" class="internship-link" width= 20px height =20px alt="hng logo"></a>
-      </div>
-      <div class="col-sm-2">
-        <a href="https://internship.zuri.team/"><img src="images/zurilogo.svg" class="internship-link" width= 20px height =20px alt="hng logo"></a>
-      </div>
-      <div class="col-sm-2">
-        <a href="https://internship.zuri.team/"><img src="images/zurilogo.svg" class="internship-link" width= 20px height =20px alt="hng logo"></a>
-      </div>
-      <div class="col-sm-2">
-        <a href="https://internship.zuri.team/"><img src="images/zurilogo.svg" class="internship-link" width= 20px height =20px alt="hng logo"></a>
+      <div class="col-sm-4">
+        <a href="https://internship.zuri.team/"><img src="images/zurilogo.svg" class="internship-link" width= 2rem height =2rem alt="hng logo"></a>
       </div>
     </div>
   </div>
@@ -119,6 +113,9 @@
       <p>© Copyright 2021 Olatunbosun</p>
     </div>
   </footer>
+  <div class="go-up">
+    <a href="#"><i class="fas fa-angle-double-up"></i></a>
+    </div>
 
   <script src="name.js"></script>
 </body>
