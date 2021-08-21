@@ -25,8 +25,8 @@ header{
   border-right-width: 3px;
 }
 
-.nav-link:hover{
-  color:red;
+.nav-item a:hover{
+  background-color: red;
 }
 /* introduction Section */
 
@@ -66,6 +66,7 @@ footer {
 
 .fa-angle-double-up{
   font-size: 3rem;
+  color: red;
 }
 
 .go-up{
